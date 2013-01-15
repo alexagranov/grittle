@@ -1,0 +1,6 @@
+# install bundler if not present...
+if  ! `command -v bundle`  ; then
+  echo "Installing bundler..."
+  gem install --no-ri --no-rdoc bundler
+fi
+
