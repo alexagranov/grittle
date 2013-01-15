@@ -7,7 +7,7 @@ require 'grit'
 include Grit
 
 # Helpers
-require 'osas_draws'
+require './osas_draws.rb'
 
 if ARGV.empty?
   puts "usage: $0 path/to/repo"
